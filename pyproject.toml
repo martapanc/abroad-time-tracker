@@ -1,0 +1,16 @@
+[project]
+name = "abroad"
+version = "0.1.0"
+description = "Count days per year spent in each country from location data you already have"
+requires-python = ">=3.11"
+dependencies = ["shapely>=2.0"]
+
+[project.scripts]
+abroad = "abroad.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

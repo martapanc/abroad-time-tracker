@@ -1,0 +1,6 @@
+# Personal location data never goes in git
+data/
+*.html
+.venv/
+__pycache__/
+.pytest_cache/
